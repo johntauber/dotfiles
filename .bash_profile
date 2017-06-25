@@ -7,3 +7,5 @@ alias harhar='echo “hello world”'
 alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
 
 alias restore='echo "Use: git ls-files -d | xargs git checkout -- "'
+
+alias gpom='git push origin master'
