@@ -319,6 +319,7 @@ explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
   (use-package org
     :config
+    (setq org-use-speed-commands t)
     (setq org-startup-indented t))
   )
 
