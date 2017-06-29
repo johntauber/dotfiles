@@ -32,7 +32,7 @@ values."
    dotspacemacs-configuration-layers
    '(
      python
-     ess
+     ;; ess
      ;; erc
      ;; ----------------------------------------------------------------
      ;; Example of useful layers you may want to use right away.
