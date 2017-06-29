@@ -2,10 +2,7 @@
 # added by Anaconda3 4.3.1 installer
 export PATH="/anaconda/bin:$PATH"
 
-alias harhar='echo “hello world”'
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
 
-alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
-
-alias restore='echo "Use: git ls-files -d | xargs git checkout -- "'
-
-alias gpom='git push origin master'
