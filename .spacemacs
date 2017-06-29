@@ -304,12 +304,6 @@ executes.
  This function is mostly useful for variables that need to be set
 before packages are loaded. If you are unsure, you should try in setting them in
 `dotspacemacs/user-config' first."
-  ;; Uncomment below to activate babel - Will not be able to see special org-mode headers
-  ;;(require 'ob-python)
-  ;;(org-babel-do-load-languages
-  ;; 'org-babel-load-languages
-  ;; '((r . t)
-  ;;   (python . t)))
     )
 
 (defun dotspacemacs/user-config ()
@@ -321,7 +315,6 @@ explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
   (use-package org
     :config
-    (setq org-use-speed-commands t)
     (setq org-startup-indented t))
   )
 
